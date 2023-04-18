@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="sty.css">
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="home">
+			<h2>Welcome to my portfolio!</h2>
+			<p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+			<a href="#portfolio" class="button">View my work</a>
+		</section>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hi, my name is [Your Name]. I have been working as a web developer for [Number of Years] years and have experience with [List of Skills].</p>
+			<p>When I'm not coding, I enjoy [List of Hobbies].</p>
+		</section>
+		<section id="portfolio">
+			<h2>My Work</h2>
+			<div class="project">
+				<img src="project-1.jpg" alt="Project 1">
+				<h3>Project 1</h3>
+				<p>Description of project 1.</p>
+				<a href="#">View Project</a>
+			</div>
+			<div class="project">
+				<img src="project-2.jpg" alt="Project 2">
+				<h3>Project 2</h3>
+				<p>Description of project 2.</p>
+				<a href="#">View Project</a>
+			</div>
+			<div class="project">
+				<img src="project-3.jpg" alt="Project 3">
+				<h3>Project 3</h3>
+				<p>Description of project 3.</p>
+				<a href="#">View Project</a>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
